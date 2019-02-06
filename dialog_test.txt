@@ -1,0 +1,28 @@
+#excuse the cheesyness of the questions...
+#each line contains question/ comment and responses seperated by ~
+#first field is the character in the game. all dialog pertaining to this character starts with this number
+#second field is a unique index for comments/questions for this character.  Always start at 100, can't have same index for the same character
+#3rd field is the question or comment.
+#the 4th & 5th feild is the first response the player can select. this is hte text thats displayed and then the index to go to if this option is choosen.
+#as many responses as you want can be include as pairs
+1~100~Do you like red?~yes~104~no~101~I don't like this question~999
+1~101~I like red, do you like blue?~yes~103~no~102
+1~102~We don’t share any likeness in color~bye~999
+1~103~Well we have blue in common at least~bye~999
+1~104~I also like Red, do you also like blue?~yes~106~no~105
+1~105~We only have red in common~bye~999
+1~106~We both like the same colors. Do you also like white?~yes~108~no~107
+1~107~Too bad we almost like the colors of the US~bye~999
+1~108~Yeah, we both like the colors of the US!~bye~999
+1~999~Farewell
+2~100~Problem solving:\nDoes the damn thing work?~yes~101~no~102
+2~101~Don’t screw with it!~Ok~999
+2~102~Did you screw with it?~yes~103~no~108
+2~103~You dumb shit!~Ok~104
+2~104~Does anyone know?~Yes~106~No~105
+2~105~Hide it!~Ok~999
+2~106~You poor bastard!~Ok~107
+2~107~Can you blame someone else?~Yes~999~No~106
+2~108~Will you catch hell?~Yes~106~No~109
+2~109~Shit-can it!~Ok~999
+2~999~No Problem!

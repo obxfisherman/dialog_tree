@@ -74,7 +74,7 @@ if __name__ == '__main__':
         #should error trap for correct choice
         if choice=='x' or converse[int(choice)][1]==999:
             converse=dialog.talk_to(npc, converse[int(choice)][1])
-            response[0]
+            print(response[0])
             break
         converse=dialog.talk_to(npc, converse[int(choice)][1])
 
